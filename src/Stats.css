@@ -1,0 +1,88 @@
+.stats {
+    background: hsl(0, 0%, 75%);
+    display: flex;
+    color: hsl(255, 11%, 22%);
+}
+
+.stats_intro {
+    text-align: center;
+    margin: 0 auto;
+    background: hsl(0, 0%, 75%);
+    width: 100%;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+}
+
+.stats_intro h1 {
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+}
+
+.stats_intro p {
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.stats_info {
+    display: flex;
+    position: relative;
+    margin-top: 15rem;
+    margin-left: 8rem;
+    max-width: 800px;
+}
+
+.stats_info1 {
+    background: white;
+    border: none;
+    padding: 1em 1em;
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 15rem;
+    border-radius: 4px;
+}
+
+.stats_info2 {
+    background: white;
+    border: none;
+    padding: 1em 1em;
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 2rem;
+    margin-bottom: 12rem;
+    border-radius: 4px;
+}
+
+.stats_info3 {
+    background: white;
+    border: none;
+    padding: 1em 1em;
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 4rem;
+    margin-bottom: 9rem;
+    border-radius: 4px;
+}
+
+.stats_info span {
+    width: 10%;
+    background-color: hsl(180, 66%, 49%);
+    height: 1.5%;
+    margin-top: 8rem;
+}
+
+.stats_info_image {
+    display: flex;
+    position: relative;
+    top: -2.5rem;
+}
+
+.stats_info_image img {
+    background: hsl(257, 27%, 26%);
+    display: block;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    border-radius: 50%;
+}
