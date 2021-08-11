@@ -28,9 +28,10 @@
 .stats_info {
     display: flex;
     position: relative;
+    width: 80%;
     margin-top: 15rem;
-    margin-left: 8rem;
-    max-width: 800px;
+    margin-left: 9rem;
+    max-width: 1440px;
 }
 
 .stats_info1 {
@@ -38,7 +39,7 @@
     border: none;
     padding: 1em 1em;
     margin: 0 auto;
-    width: 90%;
+    width: 70%;
     margin-bottom: 15rem;
     border-radius: 4px;
 }
@@ -48,7 +49,7 @@
     border: none;
     padding: 1em 1em;
     margin: 0 auto;
-    width: 90%;
+    width: 70%;
     margin-top: 2rem;
     margin-bottom: 12rem;
     border-radius: 4px;
@@ -59,7 +60,7 @@
     border: none;
     padding: 1em 1em;
     margin: 0 auto;
-    width: 90%;
+    width: 70%;
     margin-top: 4rem;
     margin-bottom: 9rem;
     border-radius: 4px;
@@ -85,4 +86,11 @@
     width: 50px;
     padding: 10px;
     border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .stats_info {
+        margin-left: 3rem;
+        width: 90%;
+    }
 }

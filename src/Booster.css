@@ -1,6 +1,7 @@
 .booster {
     position: relative;
     display: flex;
+    background: hsl(260, 8%, 14%);
 }
 
 .booster_img {
@@ -10,13 +11,13 @@
 
 .booster_word {
     position: relative;
-    top: -8.5rem;
+    top: -12rem;
     text-align: center;
     color: white;
 }
 
 .booster_word h1 {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .booster button {
@@ -29,13 +30,26 @@
     color: white;
     font-weight: 700;
     border: none;
-    width: 11%;
-    padding: 0.6rem 0.5em;
+    width: 13%;
+    padding: 1.2rem 1.1em;
     background: linear-gradient(to right, #65e2d9, #339ecc);
     transition: all 0.5s;
     border-radius: 2em;
-    font-size: 0.8em;
+    font-size: 1.2em;
     z-index: 10000;
     margin: 1rem auto;
     cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .booster_word {
+        top: -7rem;
+    }
+    .booster_word h1 {
+        font-size: 2rem;
+    }
+    .booster_btn {
+        font-size: 0.8em;
+        padding: 0.8rem 0.7rem;
+    }
 }
