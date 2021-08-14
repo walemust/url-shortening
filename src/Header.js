@@ -1,25 +1,34 @@
 import React from 'react';
 import "./Header.css";
+import { Nav, Navbar } from 'react-bootstrap';
 
 function Header() {
+    
+    
     return (
+        
         <div className="header">
-            <nav>
-            <img src="/images/logo.svg" alt="shortify logo" />
-            <ul className="nav-left">
-                <li className="nav-link"><a href="#features">Features</a></li>
-                <li className="nav-link"><a href="#pricing">Pricing</a></li>
-                <li className="nav-link"><a href="#resource">Resources</a></li>
-            </ul>
-            <ul className="nav-right">
-                <li className="nav-link-right"><a href="login">Login</a></li>
-                <li className="nav-link-right"><a href="signup">Sign Up</a></li>
-            </ul>
-            </nav>
+            <Navbar className="header-content" expand="md" justify-content="space-around" sticky="top">
+                <Navbar.Brand>
+                <img src="/images/logo.svg" alt="shortify logo" />
+                </Navbar.Brand>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
+                <Navbar.Collapse>
+                <Nav className="nav-left"> 
+                    <Nav.Link href="#features">Features</Nav.Link>
+                    <Nav.Link href="#pricing">Pricing</Nav.Link>
+                    <Nav.Link href="#resource">Resources</Nav.Link>
+                </Nav>
+                <Nav className="nav-right" >
+                    <Nav.Link href="login">Login</Nav.Link>
+                    <Nav.Link href="signup">Sign Up</Nav.Link>
+                </Nav>
+                </Navbar.Collapse>
+            </Navbar>
 
             </div>
             
-    )
+    );
 }
 
 export default Header

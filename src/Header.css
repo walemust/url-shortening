@@ -1,83 +1,17 @@
-.header {
-    position: sticky;
-    background: white;
+.header .header-content {
     display: flex;
-    overflow: hidden;
-}
-
-.header nav {
-    display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding-top: 1.5rem;
-    max-width: 1440px;
     width: 100%;
     margin: 0 auto;
+    padding: 3em;
     font-weight: 700;
 }
 
-.header nav img {
-    height: 30px;
-    margin-left: 4rem;
-}
-
-.header nav ul {
-    list-style-type: none;
-}
-
-.header nav ul li {
-    display: inline-block;
-    margin-right: 1em;
-}
-
-.header nav ul li a {
-    float: left;
-    text-decoration: none;
-    width: max-content;
-    color: hsl(0, 0%, 75%);
-    cursor: pointer;
-}
-
-.nav-left {
-    display: flex;
-    margin-right: 30rem;
-}
-
-.nav-link {
-    display: flex;
-    justify-content: space-between;
+.navbar-brand {
+    margin-left: 4em;
 }
 
 .nav-right {
-    display: flex;
-    margin-right: 4rem;
-}
-
-.nav-link-right {
-    display: flex;
-}
-
-@media screen and (max-width: 768px) {
-    .header nav {
-        padding-top: 2rem;
-        width: 50%;
-        margin: 0;
-        margin-left: 2rem;
-        justify-content: space-between;
-    }
-    .header nav img {
-        margin: 0 auto;
-        height: 50px;
-    }
-    .nav-left {
-        display: flex;
-        margin-right: 3rem;
-    }
-    .nav-right {
-        display: flex;
-        margin-right: 2rem;
-    }
-    .header nav ul li {
-        margin-left: 1em;
-        margin-right: 0.5em;
-    }
+    margin-left: 10em;
 }

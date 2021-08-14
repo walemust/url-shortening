@@ -8,7 +8,7 @@
     width: 80%;
     margin: 0 auto;
     border-radius: 7px;
-    max-width: 1440px;
+    /* max-width: 1440px; */
 }
 
 picture .img-responsive {
@@ -22,7 +22,7 @@ picture .img-responsive {
 .shorturl {
     position: absolute;
     display: flex;
-    top: 50px;
+    top: 35px;
     width: 100%;
 }
 
