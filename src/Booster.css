@@ -4,20 +4,25 @@
     background: hsl(260, 8%, 14%);
 }
 
-.booster_img {
+.booster_sect {
+    width: 100%;
+}
+
+.booster_imgmobile {
     background: hsl(257, 27%, 26%);
     width: 100%;
 }
 
 .booster_word {
     position: relative;
-    top: -12rem;
+    top: -13rem;
     text-align: center;
     color: white;
 }
 
 .booster_word h1 {
-    font-size: 3rem;
+    font-size: 1.8rem;
+    font-weight: 700;
 }
 
 .booster button {
@@ -26,11 +31,10 @@
 }
 
 .booster_btn {
-    display: block;
     color: white;
     font-weight: 700;
     border: none;
-    width: 16%;
+    width: 55%;
     padding: 1rem 1em;
     background: linear-gradient(to right, #65e2d9, #339ecc);
     transition: all 0.5s;
@@ -41,7 +45,7 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .booster_word {
         top: -7rem;
     }
@@ -52,4 +56,4 @@
         font-size: 0.8em;
         padding: 0.8rem 0.7rem;
     }
-}
+} */

@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { ShortenUrlProvider } from 'react-shorten-url';
 import './index.css';
 import App from './App';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <ShortenUrlProvider config={{ accessToken: 'bitly_access_token '}}>
     <App />
-  </React.StrictMode>,
+  </ShortenUrlProvider>,
   document.getElementById('root')
 );
 

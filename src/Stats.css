@@ -17,41 +17,48 @@
 .stats_intro h1 {
     padding-top: 5rem;
     padding-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
 }
 
 .stats_intro p {
-    width: 40%;
+    width: 80%;
     text-align: center;
     margin: 0 auto;
+    font-weight: 700;
+    color: gray;
 }
 
 .stats_info {
     display: flex;
+    flex-direction: column;
     position: relative;
-    width: 80%;
-    margin-top: 15rem;
-    margin-left: 9rem;
-    max-width: 1440px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 20rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .stats_info1 {
     background: white;
     border: none;
     padding: 1em 1em;
-    margin: 0 auto;
-    width: 70%;
-    margin-bottom: 15rem;
+    /* margin: 0 auto; */
+    width: 100%;
+    /* margin-bottom: 15rem; */
     border-radius: 4px;
+    align-items: center;
 }
 
 .stats_info2 {
     background: white;
     border: none;
     padding: 1em 1em;
-    margin: 0 auto;
-    width: 70%;
-    margin-top: 2rem;
-    margin-bottom: 12rem;
+    /* margin: 0 auto; */
+    width: 100%;
+    /* margin-top: 2rem; */
+    /* margin-bottom: 12rem; */
     border-radius: 4px;
 }
 
@@ -59,11 +66,23 @@
     background: white;
     border: none;
     padding: 1em 1em;
-    margin: 0 auto;
-    width: 70%;
-    margin-top: 4rem;
+    /* margin: 0 auto; */
+    width: 100%;
+    /* margin-top: 4rem; */
     margin-bottom: 7rem;
     border-radius: 4px;
+}
+
+.stats_info h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.stats_info p {
+    font-weight: 700;
+    text-align: center;
+    color: gray;
 }
 
 .stats_info span {
@@ -75,20 +94,21 @@
 
 .stats_info_image {
     display: flex;
+    justify-content: center;
     position: relative;
-    top: -2.5rem;
+    top: -3rem;
 }
 
 .stats_info_image img {
     background: hsl(257, 27%, 26%);
-    display: block;
-    height: 50px;
-    width: 50px;
-    padding: 10px;
+    display: flex;
+    height: 70px;
+    width: auto;
+    padding: 15px;
     border-radius: 50%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     .stats_info {
         margin-left: 3rem;
         width: 90%;

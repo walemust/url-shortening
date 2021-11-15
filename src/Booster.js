@@ -6,8 +6,8 @@ function Booster() {
         <div className="booster">
             <section className="booster_sect">
                 <picture>
-                    <source media="(376)" srcset="images/bg-boost-mobile.svg" />
-                    <img className="booster_img" src="images/bg-boost-desktop.svg" alt="" />
+                    <img className="booster_imgmobile" srcset="images/bg-boost-mobile.svg" alt=""/>
+                    {/* <img className="booster_img" src="images/bg-boost-desktop.svg" alt="" /> */}
                 </picture>
                 <div className="booster_word">
                 <h1>Boost your links today</h1>

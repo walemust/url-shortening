@@ -4,6 +4,7 @@ function Container() {
     return (
         <div className="container">
             <div className="container_info">
+            <img className="info_img" src="/images/illustration-working.svg" alt="working logo" />
                 <div className= "container_info_word">
                 <h1>More than just shorter links</h1>
                 <p>Build your brand’s recognition and get detailed insights 
@@ -15,7 +16,7 @@ function Container() {
                     </span>
                 </button>
                 </div>
-                <img className="info_img" src="/images/illustration-working.svg" alt="working logo" />
+                
             </div>
         </div>
     )

@@ -8,7 +8,8 @@ import Stats from './Stats';
 import 'bootstrap/dist/css/bootstrap.css'; 
 
 
-function App() {
+const App = () => {
+
   return (
     <div className="App">
       <Header />
